@@ -15,35 +15,46 @@
   },
   "cells": [
     {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "hLJyybvAyZAM"
+      },
+      "outputs": [],
+      "source": []
+    },
+    {
       "cell_type": "markdown",
       "source": [
-        "print function"
+        "division"
       ],
       "metadata": {
-        "id": "fpmLZvSRuwRZ"
+        "id": "jCB3_KFFyZq2"
       }
     },
     {
       "cell_type": "code",
       "source": [
-        "print(\"hello,world\")\n",
-        "print(\"NAMRATHA HM\")\n"
+        "a=int(input('enter a number:'))\n",
+        "b=int(input('enter a number:'))\n",
+        "print(a/b)"
       ],
       "metadata": {
         "colab": {
           "base_uri": "https://localhost:8080/"
         },
-        "id": "nY06qgiUu2-X",
-        "outputId": "d5015729-0148-44a5-aa5b-131efb23b72d"
+        "id": "I5-RCojUyexC",
+        "outputId": "bceafef7-16a3-4efe-9c0f-d288dc6726f4"
       },
-      "execution_count": 3,
+      "execution_count": 11,
       "outputs": [
         {
           "output_type": "stream",
           "name": "stdout",
           "text": [
-            "hello,world\n",
-            "NAMRATHA HM\n"
+            "enter a number:5\n",
+            "enter a number:6\n",
+            "0.8333333333333334\n"
           ]
         }
       ]
@@ -51,34 +62,36 @@
     {
       "cell_type": "markdown",
       "source": [
-        "ADD TWO NUMBERS"
+        "**or**\n"
       ],
       "metadata": {
-        "id": "IoYXYeM6vwoT"
+        "id": "ZEdrczRv33Sq"
       }
     },
     {
       "cell_type": "code",
       "source": [
-        "a=10\n",
-        "b=122\n",
-        "c=a+b\n",
+        "a=int(input('enter a number:'))\n",
+        "b=int(input('enter a number'))\n",
+        "c=(a+b)\n",
         "print(c)"
       ],
       "metadata": {
         "colab": {
           "base_uri": "https://localhost:8080/"
         },
-        "id": "O3x255UBv84v",
-        "outputId": "dabbb52c-3de0-40d5-81e6-820f146ae509"
+        "id": "6lIEkECy4Ajs",
+        "outputId": "9de12e35-4d05-4dec-9367-65f49ac8d14a"
       },
-      "execution_count": 5,
+      "execution_count": 12,
       "outputs": [
         {
           "output_type": "stream",
           "name": "stdout",
           "text": [
-            "132\n"
+            "enter a number:7\n",
+            "enter a number3\n",
+            "10\n"
           ]
         }
       ]
@@ -86,36 +99,37 @@
     {
       "cell_type": "markdown",
       "source": [
-        "multiplication"
+        "user input"
       ],
       "metadata": {
-        "id": "TUNwtg9ewtov"
+        "id": "krhHzEmp4ekc"
       }
     },
     {
       "cell_type": "code",
       "source": [
-        "a=int(input('enter a number: '))\n",
-        "b=int(input('enter a number: '))\n",
-        "c=(a*b)\n",
-        "print(c)\n"
+        "name =input('Enter student name: ')\n",
+        "a=int(input('Enter a number: '))\n",
+        "print(name)\n",
+        "print(a)"
       ],
       "metadata": {
         "colab": {
           "base_uri": "https://localhost:8080/"
         },
-        "id": "gRPRAA-Twxvz",
-        "outputId": "14036504-35c4-4f6a-dde1-c50d957abb1b"
+        "id": "PeD4Rb0p4lau",
+        "outputId": "691492f8-8d84-4beb-e1bb-263a2da609f9"
       },
-      "execution_count": 7,
+      "execution_count": 15,
       "outputs": [
         {
           "output_type": "stream",
           "name": "stdout",
           "text": [
-            "enter a number: 4\n",
-            "enter a number: 7\n",
-            "28\n"
+            "Enter student name: namratha\n",
+            "Enter a number: 2\n",
+            "namratha\n",
+            "2\n"
           ]
         }
       ]
